@@ -4,15 +4,14 @@
     "matched_people": 29,
     "missing_people": 0,
     "extra_people": 2,
-    "mean_oks": 0.9607,
+    "mean_oks": 0.963,
     "oks50": 0.9355,
     "oks75": 0.9355,
     "findings": {
       "gold_khong_gan_nhan": 63,
       "co_khac_gold": 54,
       "lech_nhe": 3,
-      "thua_nguoi": 2,
-      "thieu_khop": 1
+      "thua_nguoi": 2
     }
   },
   "per_image": [
@@ -936,14 +935,8 @@
         {
           "gold_person": 2,
           "your_person": 2,
-          "oks": 0.9075,
+          "oks": 0.9742,
           "findings": [
-            {
-              "type": "thieu_khop",
-              "label": "Thiếu khớp gold có",
-              "keypoint": "right_eye",
-              "detail": "Gold có v=2, bài của bạn v=0 nên khớp này tính 0 điểm. Gán lại với v=1 và đặt chấm ở vị trí ước lượng."
-            },
             {
               "type": "gold_khong_gan_nhan",
               "label": "Gold không gán khớp này",
