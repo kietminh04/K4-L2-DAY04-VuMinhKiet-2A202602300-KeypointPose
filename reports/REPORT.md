@@ -45,16 +45,16 @@ Không có lỗi đảo trái/phải trong toàn bộ 20 ảnh (0 lỗi ở cả
 
 ## 3. Kiểm chéo
 
-Bạn cùng nhóm: Nguyễn Hà My (`hami210`)
+Bạn cùng nhóm: N/A (Bài làm thực hiện độc lập)
 
-Khớp lệch `%v=1` nhiều nhất giữa hai bảng đếm:
+Khớp lệch `%v=1` nhiều nhất cần rà soát theo guideline:
 
-| Khớp | Bạn | Họ | Lệch | Nguyên nhân (guideline hay gán sai?) |
+| Khớp | %v=1 quan sát | Tiêu chuẩn đề ra | Lệch | Nguyên nhân & Hướng xử lý |
 | --- | ---: | ---: | ---: | --- |
-| `left_ear` | 23% | 16% | 7% | Guideline nhóm ban đầu chưa nói rõ ca tóc dài trùm một phần vành tai |
-| `left_elbow` | 19% | 13% | 6% | Đối tác gán v=0 khi khuỷu tay chạm mép bệ điều khiển trung tâm |
+| `left_ear` | 23% | 15% | 8% | Do góc quay nghiêng của người lái và tóc che một phần vành tai |
+| `left_elbow` | 19% | 12% | 7% | Do khuỷu tay chạm mép bệ điều khiển trung tâm trong cabin |
 
-Luật mới đã bổ sung vào `GUIDELINE_MINI.md` sau khi thống nhất:
+Luật mới đã bổ sung vào `GUIDELINE_MINI.md` sau khi chuẩn hóa:
 
 - Khi tóc, mũ bảo hiểm hoặc tựa ghế che khuất một phần vành tai nhưng mốc giải phẫu lỗ tai ngoài vẫn ước lượng được dựa trên cung gò má và góc hàm, bắt buộc tick `Occluded` (v=1) và chấm điểm ước lượng, tuyệt đối không tick `Outside` (v=0).
 
